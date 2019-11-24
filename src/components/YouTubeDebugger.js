@@ -14,12 +14,12 @@ class YouTubeDebugger extends React.Component{
       }
     }
   }
-  handleClick = () =>({
+  handleClick = () =>{
     this.setState({settings:{
       ...this.state.settings,
       bitrate:12
     }})
-  })
+  }
   render(){
     return(
       <div>
