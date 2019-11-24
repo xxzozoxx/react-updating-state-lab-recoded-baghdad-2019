@@ -25,6 +25,7 @@ class YouTubeDebugger extends React.Component{
       settings:{
         ...this.state.settings,
         video:{
+        ...this.state.settings.video,
           resolution:'720p'
         }
       }
@@ -34,7 +35,7 @@ class YouTubeDebugger extends React.Component{
     return(
       <div>
       <button className='bitrate' onClick={this.handleBitrateClick}></button>
-     <button className='resolution' onClick{this.handleResolution}></button>
+     <button className='resolution' onClick={this.handleResolution}></button>
       </div>
       )
   }
