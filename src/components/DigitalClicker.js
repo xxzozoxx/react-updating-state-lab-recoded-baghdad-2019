@@ -7,9 +7,12 @@ class DigitalClicker extends React.Component {
       timesClicked:0
     }
   }
+  handleClick = (e) =>{
+  
+  }
   render(){
     return (
-      <button onClick={()=> setState({timesClicked:> {label} </button>
+      <button onClick={this.handleClick}> {label} </button>
       )
   }
 }
