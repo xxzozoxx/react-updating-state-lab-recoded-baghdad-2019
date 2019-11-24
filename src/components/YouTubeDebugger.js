@@ -15,7 +15,7 @@ class YouTubeDebugger extends React.Component{
     }
   }
   handleClick = () =>({
-    this.setState({})
+    this.setState(Object.assign({},))
   })
   render(){
     return(
